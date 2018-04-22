@@ -1,0 +1,66 @@
+section{
+	width: 1240px;
+	height: 545px;
+	margin: 100px auto;
+}
+.imginfo{
+	width: 400px;
+	height:  545px;
+	background: url('../img/timg.jpg') 0 0 /  400px 545px no-repeat;
+}
+.bookmsg{
+	width: 600px;
+	padding: 0 40px;
+}
+h1{
+	font-size: 30px;
+	line-height: 40px;
+}
+p{
+	padding-top: 15px;
+	font-size: 16px;
+	line-height: 25px;
+	color: #9F9F9F;
+}
+ul.msg{
+	margin: 40px 0 0;
+	background: #EBEBEB;
+}
+.msg li{
+	height: 25px;
+	line-height: 25px;
+}
+.msg li a{
+	line-height: 16px;
+}
+.pri{
+	padding: 10px 0;
+}
+.price{
+	color: red;
+	font-size: 30px;
+	font-weight: 400;
+}
+div.btn{
+	margin-top: 60px;
+	padding: 0 50px 0 0;
+}
+.shop{
+	padding: 10px 20px;
+	line-height: 1;
+	color: white;
+	background: red;
+	border-radius: 5px; 
+	cursor: pointer;
+}
+.join{
+	padding: 8px 16px;
+	line-height: 1;
+	border-radius: 5px; 
+	cursor: pointer;
+	color:red;
+	border:2px solid red; 
+	background: #FFEDEE;
+}
+
+

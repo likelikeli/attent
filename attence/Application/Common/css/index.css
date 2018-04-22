@@ -1,0 +1,58 @@
+
+section{
+	width: 1240px;
+	padding-top: 100px;
+	margin: 0 auto;
+}
+ul.prolist{
+	padding: 0 10px;
+}
+li.pro{
+	width: 220px;
+	border: 1px solid #E6E6E6;
+	padding: 20px 30px;
+	border-radius: 5px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+a.pic{
+	display: block;
+	width: 200px;
+	height: 300px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.pic img{
+	width: 200px;
+	height: 300px;
+}
+.title{
+	font-size: 30px;
+	overflow: hidden;
+	white-space:   nowrap ;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+.tip{
+	padding-top: 15px;
+}
+.price{
+	line-height: 35px;
+}
+.btn{
+	width: 80px;
+	height: 35px;
+	border-radius: 5px;
+	color: white;
+	background: #46BA5E;
+	text-align: center;
+	line-height: 35px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.btna{
+	color: white;
+}
+
+
+

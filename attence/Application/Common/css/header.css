@@ -1,0 +1,27 @@
+.menu{
+	height: 50px;
+	background: #222222;
+	color: ;
+	line-height: 50px;
+}
+.numelist{
+	width: 1240px;
+	margin: 0 auto;
+}
+.list{
+	width: 80px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+	user-select: none;
+}
+.one{
+	background: #080808;
+	font-weight: 700;
+}
+.one a{
+	color: white;
+}
+a{
+	color:  #969696;
+}

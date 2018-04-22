@@ -1,0 +1,19 @@
+section{
+	width: 1240px;
+	min-height: 525px;
+	margin: 100px auto;
+}
+.car{
+	border: 3px solid #EFEAE4;
+	padding: 20px;
+}
+th{
+	padding: 10px 0;
+	cursor: pointer;
+}
+table{
+	text-align: center;
+}
+td{
+	cursor: pointer;
+}

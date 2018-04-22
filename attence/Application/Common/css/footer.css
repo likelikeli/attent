@@ -1,0 +1,25 @@
+.footer{
+	width: 1240px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border-top: 2px solid #F4F4F4 ;
+}
+.detal{
+	margin: 0 auto;
+	width: 600px;
+}
+.msg{
+	padding: 0 10px;
+	font-size: 14px;
+}
+.msg a{
+	color: blue;
+	line-height: 60px;
+}
+.info{
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	color: #DFDFDF;
+}
