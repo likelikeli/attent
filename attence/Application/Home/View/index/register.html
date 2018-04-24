@@ -4,43 +4,61 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>登录</title>
-		<link rel="stylesheet" href="__ROOT__/Application/Common/css/reset.css">
-		<link rel="stylesheet" href="__ROOT__/Application/Common/css/login.css">
-		<link rel="stylesheet" href="__ROOT__/Application/Common/css/header.css">
-		<link rel="stylesheet" href="__ROOT__/Application/Common/css/footer.css">
-		<link rel="stylesheet" href="__ROOT__/Application/Common/css/bootstrap.min.css">
+		<!--<link rel="stylesheet" href="__ROOT__/Application/Common/css/reset.css">-->
+		<!--<link rel="stylesheet" href="__ROOT__/Application/Common/css/login.css">-->
+		<!--<link rel="stylesheet" href="__ROOT__/Application/Common/css/header.css">-->
+		<!--<link rel="stylesheet" href="__ROOT__/Application/Common/css/footer.css">-->
+		<!--<link rel="stylesheet" href="__ROOT__/Application/Common/css/bootstrap.min.css">-->
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<script src="bootstrap.min.js"></script>
+		<style>
+			.myimg{
+				position: fixed;
+				width:100vw;
+				height:100vh;
+				background: url("background.jpg")no-repeat;
+				background-size: 100% 100%;
+				margin:0  auto;
+			}
+		</style>
 	</head>
 
 	<body>
-		<h1>注册</h1>
-		<form class="form-horizontal">
-			<div class="form-group">
-				<label for="name" class="col-sm-2 col-xs-2 col-md-2 col-lg-2 control-label">用户名</label>
-				<div class="col-sm-3 col-xs-3 col-md-3 col-lg-3">
-					<input type="text" class="form-control name" id="name" placeholder="用户名">
+	<div class="myimg">
+		<div  style="margin:200px auto">
+			<h1  style="text-align: center">注册</h1>
+			<form class="form-horizontal">
+				<div class="form-group">
+					<label for="name" class="col-sm-4 col-xs-4 col-md-4 col-lg-4 control-label">用户名</label>
+					<div class="col-sm-4 col-xs-4 col-md-4 col-lg-4">
+						<input type="text" class="form-control name" id="name" placeholder="用户名">
+					</div>
 				</div>
-			</div>
-			<div class="form-group">
-				<label for="password" class="col-sm-2 col-xs-2 col-md-2 col-lg-2 control-label">密码</label>
-				<div class="col-sm-3 col-xs-3 col-md-3 col-lg-3">
-					<input type="password" class="form-control psd" id="password" placeholder="password">
+				<div class="form-group">
+					<label for="password" class="col-sm-4 col-xs-4 col-md-4 col-lg-4 control-label">密码</label>
+					<div class="col-sm-4 col-xs-4 col-md-4 col-lg-4">
+						<input type="password" class="form-control psd" id="password" placeholder="password">
+					</div>
 				</div>
-			</div>
-			<div class="form-group">
-				<label class="col-sm-2 col-xs-2 col-md-2 col-lg-2 control-label">职务</label>
-				<div class="col-xs-3 col-md-3 col-lg-3 col-sm-3">
-					<select class="form-control stud" value="">
-						<option >学生</option>
-						<option >老师</option>
-					</select>
+				<div class="form-group">
+					<label class="col-sm-4 col-xs-4 col-md-4 col-lg-4 control-label">职务</label>
+					<div class="col-xs-4 col-md-4 col-lg-4 col-sm-4">
+						<select class="form-control stud" value="">
+							<option >学生</option>
+							<option >老师</option>
+						</select>
+					</div>
+
 				</div>
-			
+
+			</form>
+			<div class="col-sm-offset-5 col-xs-offset-5 col-lg-offset-5 col-md-offset-5 col-sm-3  col-xs-3 col-md-3 col-lg-3">
+				<button class="btn btn-success regester" style="width:100px;">注册</button>
 			</div>
-			
-		</form>
-		<div class="col-sm-offset-2 col-xs-offset-2 col-lg-offset-2 col-md-offset-2 col-sm-3  col-xs-3 col-md-3 col-lg-3">
-			<button class="btn btn-success regester">注册</button>
 		</div>
+	</div>
+
+
 	</body>
 	<script src="__ROOT__/Application/Common/js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript">
